@@ -1,0 +1,202 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Oswald:wght@200;300;400;500;600;700&family=Raleway:ital,wght@0,400;0,600;1,500&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Nunito Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+/* navbar start */
+.navbar-nav li a{
+  padding: 10px  ;
+  margin:0px 5px;
+  font-size: 12px;
+}
+
+
+/* navbar end */
+
+/* carusel start */
+
+.img-overlay {
+  height: 100%;
+  width: 100%; 
+  background:rgba(0, 0, 0, 0.6);
+  top: 0px;
+  left: 0px;
+  position: absolute;
+
+}
+
+/* section-01-strat */
+.para p{
+  font-size: 18px;
+  line-height: 35px;
+}
+
+
+
+
+
+.btn-style{
+  padding: 10px 35px;
+  background-color: white;
+  color: black;
+  border-radius: 30px;
+  border: 1px solid black;
+  transition: .3s;
+}
+
+.btn-style:hover{
+  border: 1px solid brown;
+  color: brown;
+}
+
+.btn-style a{
+  color:black;
+  text-decoration: none;
+}
+.btn-style a:hover{
+  color: brown;
+}
+.image img{
+  width: 100%;
+  height: 300px;
+  align-items: center;
+}
+/* section-01-end */
+
+/* section-02-start */
+.math-img img{
+  margin: 50px 150px;
+}
+/* section-02-end */
+
+/* section-03-start */
+.image-03 img{
+  width: 225px;
+}
+.button-03 {
+width: 225px;
+padding: 7px;
+box-shadow: 1px 1px 5px 1px;
+}
+.button-03 a{
+  text-decoration: none;
+  color: black;
+}
+/* section-03-end */
+
+/* section-04-start */
+.col-3 p{
+  line-height: 22px;
+  font-size: 16px;
+}
+.col-4 p{
+  line-height: 25px;
+  font-size: 16px;
+  text-align: justify;
+}
+.image-04 img{
+  width: 225px;
+}
+.two-image img{
+  width: 225px;
+  margin-top: 35px;
+}
+/* section-04-end */
+
+/* section-05-start */
+.para-05 li{
+list-style: none; 
+line-height: 30px;
+}
+.para-05{
+  background-color: rgb(224, 238, 238);
+  padding: 0px 1px 10px 1px; 
+  
+  box-sizing: border-box;
+  
+}
+.list li{
+  margin-top: 15px;
+}
+.heading-05{
+  background-color: rgb(198, 228, 170);
+  box-sizing: border-box;
+  padding: 5px;
+  width: 215px;
+  height: 70px;
+  font-size: 20px;
+}
+
+/* section-05-end */
+
+/* section-06-start */
+.img-06{
+  background: url(background.jpg);
+  width: 100%;
+  height: 700px;
+}
+.white-box{
+  margin-left: 30px;
+  background: white;
+  height:400px;
+  width: 550px;
+}
+.sub-box{
+padding: 80px;
+}
+/* section-06-end */
+
+/* section-07-start */
+
+.list-style li a:hover{
+  color: brown;
+}
+.list-style li a{
+text-decoration: none;
+color:black;
+}
+.list-style{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  line-height: 45px;
+  font-size: 14px;
+}
+.icon-style  li a:hover{
+  border-color: brown;
+  color: brown;
+}
+.icon-style  li a{
+  border:2px solid black;
+padding:8px;
+color: black;
+
+
+}
+.icon-style{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  line-height: 50px;
+  width: 60px;
+  height: 60px;
+
+}
+/* section-07-end */
+
+.footer{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(226, 237, 245);
+  padding: 15px;
+}
